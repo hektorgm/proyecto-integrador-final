@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cantidad"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="86dp"
+        android:hint="Cantidad"
+        app:layout_constraintBottom_toTopOf="@+id/registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noparte" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="630dp"
+        android:text="Registro de Lote"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nolote"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Numero de Lote"
+        app:layout_constraintBottom_toTopOf="@+id/fechaaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/fechaaper"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Fecha de apertura"
+        app:layout_constraintBottom_toTopOf="@+id/inspector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nolote" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inspector"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Nombre de Inspector"
+        app:layout_constraintBottom_toTopOf="@+id/noparte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fechaaper" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/noparte"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Numero de Parte"
+        app:layout_constraintBottom_toTopOf="@+id/cantidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inspector" />
+
+    <Button
+        android:id="@+id/registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="123dp"
+        android:contentDescription="registrar"
+        android:text="REGISTRAR LOTE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cantidad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

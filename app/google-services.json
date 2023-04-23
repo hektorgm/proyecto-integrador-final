@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "438176716895",
+    "project_id": "practicamovil-4f087",
+    "storage_bucket": "practicamovil-4f087.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438176716895:android:c9a59dfbf1bc371499e3ea",
+        "android_client_info": {
+          "package_name": "com.example.pintegrador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438176716895-6ukn2ulk0gufj90pkml5kmkahmc4uutp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7FSArVat0oiggoYx6aP-Zd4s6b4vjyGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438176716895-6ukn2ulk0gufj90pkml5kmkahmc4uutp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
